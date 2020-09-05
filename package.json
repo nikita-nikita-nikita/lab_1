@@ -4,7 +4,9 @@
   "description": "client dev laba 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "dev": "npx webpack -d",
+    "prod": "npx webpack -p"
   },
   "repository": {
     "type": "git",
