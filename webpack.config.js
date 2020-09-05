@@ -10,6 +10,12 @@ module.exports = {
         filename: "main.js",
         path: path.resolve(__dirname, "dist")
     },
+    devtool: 'inline-source-map',
+    devServer: {
+        contentBase: './dist',
+        port: 9000,
+        stats: 'errors-only'
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: "./src/index.html"
@@ -22,7 +28,7 @@ module.exports = {
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery':'jquery'
-        })
+        }),
     ],
     module: {
         rules: [

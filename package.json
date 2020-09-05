@@ -4,7 +4,7 @@
   "description": "client dev laba 1",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --open",
     "dev": "npx webpack -d",
     "prod": "npx webpack -p"
   },
