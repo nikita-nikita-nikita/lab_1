@@ -1,3 +1,3 @@
 # 
 
-<b>use <i>'npm start'</i> to start live compilation</b>
+<b>use <br><pre>$ npm start</pre><br> to start live compilation</b>
