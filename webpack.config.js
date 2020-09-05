@@ -41,6 +41,16 @@ module.exports = {
                     "css-loader"
                 ]
             },
+            {
+                test: /\.s[ac]ss$/i,
+                use: [
+                    {
+                        loader: MinCssWebpackPlugin.loader
+                    },
+                    'css-loader',
+                    'sass-loader',
+                ],
+            },
         ],
     },
 }
