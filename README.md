@@ -1,3 +1,3 @@
 # 
 
-<b>use <i>'npm start'</i> to compile sourse files</b>
+<b>use <i>'npm start'</i> to start live compilation</b>
